@@ -1,0 +1,84 @@
+CCFLAGS = -g ;
+HDRS = 	"f:\\cvi\\app\\c_comm"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\activex\\word"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\activex\\excel"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\custctrl"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\custctrl\\custsupp"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\cvirtsup"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\datasock"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\daqUtil"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\printing"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\toolbox"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\reportgen"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\localui"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\instr"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\toolslib\\custctrl"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\toolslib\\custctrl\\custsupp"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\instr"
+	"C:\\ProgramData\\National Instruments\\CVI2017\\instr"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\include"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\include"
+	"C:\\ProgramData\\National Instruments\\CVI2017\\include"
+	"C:\\ProgramData\\National Instruments\\CVI\\include"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\include\\ansi"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\include\\clang\\3.3"
+	"C:\\Program Files (x86)\\IVI Foundation\\IVI\\Include"
+	"C:\\Program Files (x86)\\IVI Foundation\\VISA\\winnt\\include"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\MSDTRedistributables\\SDKHeaderFiles\\8.1"
+	"c:\\Program Files (x86)\\National Instruments\\CVI2017\\bin"
+	"c:\\ProgramData\\National Instruments\\CVI2017\\bin"
+	"c:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\Bin"
+	;
+include Jamfile_instr ;
+LOCATE on "com2config.h" = "f:\\cvi\\app\\opencom\\uir" ;
+LOCATE on "comconfig.h" = "f:\\cvi\\app\\opencom\\uir" ;
+LOCATE on "CrcCheck.c" = "f:\\cvi\\app\\c_comm\\crccheck" ;
+LOCATE on "CrcCheck.h" = "f:\\cvi\\app\\c_comm\\crccheck" ;
+LOCATE on "cvi_ansytimer.c" = "f:\\cvi\\app\\ansytime" ;
+LOCATE on "cvi_ansytimer.h" = "f:\\cvi\\app\\ansytime" ;
+LOCATE on "cvi_com1.c" = "f:\\cvi\\app\\opencom\\source" ;
+LOCATE on "cvi_com1.h" = "f:\\cvi\\app\\opencom\\source" ;
+LOCATE on "cvi_com2.c" = "f:\\cvi\\app\\opencom\\source" ;
+LOCATE on "cvi_com2.h" = "f:\\cvi\\app\\opencom\\source" ;
+LOCATE on "cvi_com_operate.c" = "f:\\cvi\\app\\opencom\\source" ;
+LOCATE on "cvi_com_operate.h" = "f:\\cvi\\app\\opencom\\source" ;
+LOCATE on "cvi_config.h" = "f:\\cvi\\app\\config" ;
+LOCATE on "main.c" = "f:\\cvi\\app\\opencom\\source" ;
+LOCATE on "main.h" = "f:\\cvi\\app\\NC208测试台模拟" ;
+LOCATE on "MonitorCom.h" = "f:\\cvi\\app\\NC208\\MonitorCom" ;
+Object "f:\\cvi\\app\\NC208测试台模拟\\cvibuild.NC208Monitor\\Debug\\CrcCheck.obj" : "f:\\cvi\\app\\c_comm\\crccheck\\CrcCheck.c" ;
+FILENUM on "f:\\cvi\\app\\NC208测试台模拟\\cvibuild.NC208Monitor\\Debug\\CrcCheck.obj" = 1 ;
+DEFPROTS on "f:\\cvi\\app\\NC208测试台模拟\\cvibuild.NC208Monitor\\Debug\\CrcCheck.obj" = "f:\\cvi\\app\\NC208测试台模拟\\cvibuild.NC208Monitor\\Debug\\CrcCheck.obj.cvidefprots" ;
+OUTFILE on "f:\\cvi\\app\\NC208测试台模拟\\cvibuild.NC208Monitor\\Debug\\CrcCheck.obj" = "f:\\cvi\\app\\NC208测试台模拟\\cvibuild.NC208Monitor\\Debug\\CrcCheck.obj.out" ;
+PrjObjects += "f:\\cvi\\app\\NC208测试台模拟\\cvibuild.NC208Monitor\\Debug\\CrcCheck.obj" ;
+Object "f:\\cvi\\app\\NC208测试台模拟\\cvibuild.NC208Monitor\\Debug\\cvi_ansytimer.obj" : "f:\\cvi\\app\\ansytime\\cvi_ansytimer.c" ;
+FILENUM on "f:\\cvi\\app\\NC208测试台模拟\\cvibuild.NC208Monitor\\Debug\\cvi_ansytimer.obj" = 2 ;
+DEFPROTS on "f:\\cvi\\app\\NC208测试台模拟\\cvibuild.NC208Monitor\\Debug\\cvi_ansytimer.obj" = "f:\\cvi\\app\\NC208测试台模拟\\cvibuild.NC208Monitor\\Debug\\cvi_ansytimer.obj.cvidefprots" ;
+OUTFILE on "f:\\cvi\\app\\NC208测试台模拟\\cvibuild.NC208Monitor\\Debug\\cvi_ansytimer.obj" = "f:\\cvi\\app\\NC208测试台模拟\\cvibuild.NC208Monitor\\Debug\\cvi_ansytimer.obj.out" ;
+PrjObjects += "f:\\cvi\\app\\NC208测试台模拟\\cvibuild.NC208Monitor\\Debug\\cvi_ansytimer.obj" ;
+Object "f:\\cvi\\app\\NC208测试台模拟\\cvibuild.NC208Monitor\\Debug\\cvi_com1.obj" : "f:\\cvi\\app\\opencom\\source\\cvi_com1.c" ;
+FILENUM on "f:\\cvi\\app\\NC208测试台模拟\\cvibuild.NC208Monitor\\Debug\\cvi_com1.obj" = 3 ;
+DEFPROTS on "f:\\cvi\\app\\NC208测试台模拟\\cvibuild.NC208Monitor\\Debug\\cvi_com1.obj" = "f:\\cvi\\app\\NC208测试台模拟\\cvibuild.NC208Monitor\\Debug\\cvi_com1.obj.cvidefprots" ;
+OUTFILE on "f:\\cvi\\app\\NC208测试台模拟\\cvibuild.NC208Monitor\\Debug\\cvi_com1.obj" = "f:\\cvi\\app\\NC208测试台模拟\\cvibuild.NC208Monitor\\Debug\\cvi_com1.obj.out" ;
+PrjObjects += "f:\\cvi\\app\\NC208测试台模拟\\cvibuild.NC208Monitor\\Debug\\cvi_com1.obj" ;
+Object "f:\\cvi\\app\\NC208测试台模拟\\cvibuild.NC208Monitor\\Debug\\cvi_com2.obj" : "f:\\cvi\\app\\opencom\\source\\cvi_com2.c" ;
+FILENUM on "f:\\cvi\\app\\NC208测试台模拟\\cvibuild.NC208Monitor\\Debug\\cvi_com2.obj" = 4 ;
+DEFPROTS on "f:\\cvi\\app\\NC208测试台模拟\\cvibuild.NC208Monitor\\Debug\\cvi_com2.obj" = "f:\\cvi\\app\\NC208测试台模拟\\cvibuild.NC208Monitor\\Debug\\cvi_com2.obj.cvidefprots" ;
+OUTFILE on "f:\\cvi\\app\\NC208测试台模拟\\cvibuild.NC208Monitor\\Debug\\cvi_com2.obj" = "f:\\cvi\\app\\NC208测试台模拟\\cvibuild.NC208Monitor\\Debug\\cvi_com2.obj.out" ;
+PrjObjects += "f:\\cvi\\app\\NC208测试台模拟\\cvibuild.NC208Monitor\\Debug\\cvi_com2.obj" ;
+Object "f:\\cvi\\app\\NC208测试台模拟\\cvibuild.NC208Monitor\\Debug\\cvi_com_operate.obj" : "f:\\cvi\\app\\opencom\\source\\cvi_com_operate.c" ;
+FILENUM on "f:\\cvi\\app\\NC208测试台模拟\\cvibuild.NC208Monitor\\Debug\\cvi_com_operate.obj" = 5 ;
+DEFPROTS on "f:\\cvi\\app\\NC208测试台模拟\\cvibuild.NC208Monitor\\Debug\\cvi_com_operate.obj" = "f:\\cvi\\app\\NC208测试台模拟\\cvibuild.NC208Monitor\\Debug\\cvi_com_operate.obj.cvidefprots" ;
+OUTFILE on "f:\\cvi\\app\\NC208测试台模拟\\cvibuild.NC208Monitor\\Debug\\cvi_com_operate.obj" = "f:\\cvi\\app\\NC208测试台模拟\\cvibuild.NC208Monitor\\Debug\\cvi_com_operate.obj.out" ;
+PrjObjects += "f:\\cvi\\app\\NC208测试台模拟\\cvibuild.NC208Monitor\\Debug\\cvi_com_operate.obj" ;
+Object "f:\\cvi\\app\\NC208测试台模拟\\cvibuild.NC208Monitor\\Debug\\main.obj" : "f:\\cvi\\app\\opencom\\source\\main.c" ;
+FILENUM on "f:\\cvi\\app\\NC208测试台模拟\\cvibuild.NC208Monitor\\Debug\\main.obj" = 6 ;
+DEFPROTS on "f:\\cvi\\app\\NC208测试台模拟\\cvibuild.NC208Monitor\\Debug\\main.obj" = "f:\\cvi\\app\\NC208测试台模拟\\cvibuild.NC208Monitor\\Debug\\main.obj.cvidefprots" ;
+OUTFILE on "f:\\cvi\\app\\NC208测试台模拟\\cvibuild.NC208Monitor\\Debug\\main.obj" = "f:\\cvi\\app\\NC208测试台模拟\\cvibuild.NC208Monitor\\Debug\\main.obj.out" ;
+PrjObjects += "f:\\cvi\\app\\NC208测试台模拟\\cvibuild.NC208Monitor\\Debug\\main.obj" ;
+Object "f:\\cvi\\app\\NC208测试台模拟\\cvibuild.NC208Monitor\\Debug\\resources.res" : "f:\\cvi\\app\\NC208测试台模拟\\cvibuild.NC208Monitor\\Debug\\resources.in.rc" ;
+Depends "f:\\cvi\\app\\NC208测试台模拟\\cvibuild.NC208Monitor\\Debug\\resources.res" : "f:\\cvi\\app\\NC208测试台模拟\\cvibuild.NC208Monitor\\Debug\\manifest.xml" ;
+MainFromObjects "f:\\cvi\\app\\NC208测试台模拟\\cvibuild.NC208Monitor\\Debug\\NC208Monitor.exe" : $(PrjObjects) $(InstrObjects) ;
+Depends "f:\\cvi\\app\\NC208测试台模拟\\cvibuild.NC208Monitor\\Debug\\NC208Monitor.exe" : "f:\\cvi\\app\\NC208测试台模拟\\cvibuild.NC208Monitor\\Debug\\link_options.txt" ;
+Depends "f:\\cvi\\app\\NC208测试台模拟\\cvibuild.NC208Monitor\\Debug\\NC208Monitor.exe" : "f:\\cvi\\app\\NC208测试台模拟\\cvibuild.NC208Monitor\\Debug\\resources.res" ;
+Depends all : "f:\\cvi\\app\\NC208测试台模拟\\cvibuild.NC208Monitor\\Debug\\NC208Monitor.exe" ;

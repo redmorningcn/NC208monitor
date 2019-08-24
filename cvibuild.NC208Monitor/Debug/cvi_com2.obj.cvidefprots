@@ -1,0 +1,44 @@
+[Com2RecvAndSend]
+Class="Function"
+Prototype="void Com2RecvAndSend(int portNo, int eventMask, void *callbackData);"
+
+[cvi_initCom2Contrl]
+Class="Function"
+Prototype="struct _stcUartContrl_ *cvi_initCom2Contrl();"
+
+[ReadCom2ConfigFromFile]
+Class="Function"
+Prototype="int ReadCom2ConfigFromFile(struct _stcUartConfig_ *sUartConfig);"
+
+[WriteCom2ConfigToFile]
+Class="Function"
+Prototype="void WriteCom2ConfigToFile(struct _stcUartConfig_ *sUartConfig);"
+
+[Com2Config]
+Class="Function"
+Prototype="void Com2Config();"
+
+[QuitCom2Panel]
+Class="Function"
+Prototype="void QuitCom2Panel(int panel);"
+
+[CloseCom2]
+Class="Function"
+Prototype="void CloseCom2();"
+
+[Com2ConfigOkCallback]
+Class="Function"
+Prototype="int Com2ConfigOkCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Com2PanelCB]
+Class="Function"
+Prototype="int Com2PanelCB(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+
+[SetCviCtrlCom2Config]
+Class="Function"
+Prototype="void SetCviCtrlCom2Config(struct _stcUartConfig_ *sUartConfig);"
+
+[OpenCom2Callback]
+Class="Function"
+Prototype="int OpenCom2Callback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
