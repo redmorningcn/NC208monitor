@@ -9,7 +9,7 @@ IVI Standard Root Dir = "/C/Program Files (x86)/IVI Foundation/IVI"
 VXIplug&play Framework Dir = "/C/Program Files (x86)/IVI Foundation/VISA/winnt"
 IVI Standard Root 64-bit Dir = "/C/Program Files/IVI Foundation/IVI"
 VXIplug&play Framework 64-bit Dir = "/C/Program Files/IVI Foundation/VISA/win64"
-Number of Files = 20
+Number of Files = 24
 Target Type = "Executable"
 Flags = 2064
 Copied From Locked InstrDrv Directory = False
@@ -18,8 +18,6 @@ Locked InstrDrv Name = ""
 Don't Display Deploy InstrDrv Dialog = False
 
 [Folders]
-Source Files Folder Not Added Yet = True
-Include Files Folder Not Added Yet = True
 User Interface Files Folder Not Added Yet = True
 Library Files Folder Not Added Yet = True
 Folder 0 = "uir"
@@ -31,6 +29,10 @@ FolderEx 2 = "app"
 FolderEx 2 Parent = 1
 Folder 3 = "Instrument Files"
 FolderEx 3 = "Instrument Files"
+Folder 4 = "Source Files"
+FolderEx 4 = "Source Files"
+Folder 5 = "Include Files"
+FolderEx 5 = "Include Files"
 
 [File 0001]
 File Type = "Include"
@@ -273,11 +275,60 @@ Path Is Rel = True
 Path Rel To = "CVI"
 Path Rel To Override = "CVI"
 Path Rel Path = "toolslib/toolbox/asynctmr.fp"
-Path = "/c/Program Files (x86)/National Instruments/CVI2017/toolslib/toolbox/asynctmr.fp"
+Path = "/c/program files (x86)/national instruments/cvi2017/toolslib/toolbox/asynctmr.fp"
 Exclude = False
 Project Flags = 0
 Folder = "Instrument Files"
 Folder Id = 3
+
+[File 0021]
+File Type = "CSource"
+Res Id = 21
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../NC208/MonitorCom/MonitorCom.c"
+Path = "/f/cvi/app/NC208/MonitorCom/MonitorCom.c"
+Exclude = False
+Compile Into Object File = False
+Project Flags = 0
+Folder = "Source Files"
+Folder Id = 4
+
+[File 0022]
+File Type = "Include"
+Res Id = 22
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../cvi_modbus/uC-MB/Source/mb.h"
+Path = "/f/cvi/app/cvi_modbus/uC-MB/Source/mb.h"
+Exclude = False
+Project Flags = 0
+Folder = "Include Files"
+Folder Id = 5
+
+[File 0023]
+File Type = "Include"
+Res Id = 23
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../cvi_modbus/uC-MB/Cfg/Template/mb_cfg.h"
+Path = "/f/cvi/app/cvi_modbus/uC-MB/Cfg/Template/mb_cfg.h"
+Exclude = False
+Project Flags = 0
+Folder = "Include Files"
+Folder Id = 5
+
+[File 0024]
+File Type = "Include"
+Res Id = 24
+Path Is Rel = True
+Path Rel To = "Project"
+Path Rel Path = "../cvi_modbus/uC-MB/OS/uCOS-III/NO_MB_OS.H"
+Path = "/f/cvi/app/cvi_modbus/uC-MB/OS/uCOS-III/NO_MB_OS.H"
+Exclude = False
+Project Flags = 0
+Folder = "Include Files"
+Folder Id = 5
 
 [Custom Build Configs]
 Num Custom Build Configs = 0
@@ -547,13 +598,13 @@ Type Lib FP File = ""
 [Compiler Options]
 Default Calling Convention = "cdecl"
 Require Prototypes = True
-Require Return Values = False
-Enable Pointer Mismatch Warning = False
-Enable Unreachable Code Warning = False
-Enable Unreferenced Identifiers Warning = False
-Enable Assignment In Conditional Warning = False
+Require Return Values = True
+Enable Pointer Mismatch Warning = True
+Enable Unreachable Code Warning = True
+Enable Unreferenced Identifiers Warning = True
+Enable Assignment In Conditional Warning = True
 Enable C99 Extensions = True
-Uninitialized Locals Compile Warning = "Disabled"
+Uninitialized Locals Compile Warning = "Aggressive"
 Precompile Prefix Header = False
 Prefix Header File = ""
 
@@ -571,6 +622,26 @@ Include Path 1 Is Rel = True
 Include Path 1 Rel To = "Project"
 Include Path 1 Rel Path = "../c_comm"
 Include Path 1 = "/f/cvi/app/c_comm"
+Include Path 2 Is Rel = True
+Include Path 2 Rel To = "Project"
+Include Path 2 Rel Path = "../cvi_modbus/uC-MB/Cfg/cvi_config"
+Include Path 2 = "/f/cvi/app/cvi_modbus/uC-MB/Cfg/cvi_config"
+Include Path 3 Is Rel = True
+Include Path 3 Rel To = "Project"
+Include Path 3 Rel Path = "../cvi_modbus/uC-MB/OS/uCOS-III"
+Include Path 3 = "/f/cvi/app/cvi_modbus/uC-MB/OS/uCOS-III"
+Include Path 4 Is Rel = True
+Include Path 4 Rel To = "Project"
+Include Path 4 Rel Path = "../cvi_modbus/uC-MB/Cfg/Template"
+Include Path 4 = "/f/cvi/app/cvi_modbus/uC-MB/Cfg/Template"
+Include Path 5 Is Rel = True
+Include Path 5 Rel To = "Project"
+Include Path 5 Rel Path = "../cvi_modbus/uC-MB/Source"
+Include Path 5 = "/f/cvi/app/cvi_modbus/uC-MB/Source"
+Include Path 6 Is Rel = True
+Include Path 6 Rel To = "Project"
+Include Path 6 Rel Path = "../NC208/sensor_switch"
+Include Path 6 = "/f/cvi/app/NC208/sensor_switch"
 
 [Create Executable]
 Executable File_Debug Is Rel = True
