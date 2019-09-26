@@ -13,10 +13,10 @@ Number of Projects = 1
 Active Project = 1
 Project 0001 = "NC208Monitor.prj"
 Drag Bar Left = 298
-Window Top = 72
-Window Left = 501
-Window Bottom = 758
-Window Right = 1851
+Window Top = 35
+Window Left = 8
+Window Bottom = 721
+Window Right = 1358
 Maximized = True
 Maximized Children = True
 Max32 Number Of Errors = 20
@@ -79,7 +79,7 @@ Disk Date = 3612777068
 In Projects = "1,"
 Window Top = 250
 Window Left = 122
-Window Z-Order = 9
+Window Z-Order = 13
 Source Window State = "1,0,0,0,0,0,0,0,0,80,0,0,0,0,0,23,0,0,0,0,491,895,1,0,"
 
 [File 0005]
@@ -89,7 +89,7 @@ Disk Date = 3649028411
 In Projects = "1,"
 Window Top = 33
 Window Left = 10
-Window Z-Order = 8
+Window Z-Order = 4
 Source Window State = "1,0,0,0,0,0,0,0,0,80,0,0,0,0,0,23,0,0,0,0,491,895,1,0,"
 
 [File 0006]
@@ -99,7 +99,7 @@ Disk Date = 3613689231
 In Projects = "1,"
 Window Top = 95
 Window Left = 42
-Window Z-Order = 10
+Window Z-Order = 14
 Source Window State = "1,36,36,36,20,32,32,0,3,66,0,0,0,0,0,13,30,0,36,20,291,755,1,0,"
 
 [File 0007]
@@ -109,18 +109,18 @@ Disk Date = 3607035615
 In Projects = "1,"
 Window Top = 219
 Window Left = 106
-Window Z-Order = 11
+Window Z-Order = 15
 Source Window State = "1,0,0,0,0,0,0,0,0,80,0,0,0,0,0,23,0,0,0,0,491,895,1,0,"
 
 [File 0008]
 Path = "/f/cvi/app/opencom/source/cvi_com_operate.c"
 File Type = "CSource"
-Disk Date = 3613617748
+Disk Date = 3651092175
 In Projects = "1,"
 Window Top = 33
 Window Left = 10
-Window Z-Order = 5
-Source Window State = "1,100,100,100,26,40,26,0,0,78,0,0,0,0,0,18,131,0,140,0,391,875,1,0,"
+Window Z-Order = 1
+Source Window State = "1,99,99,99,54,56,56,0,0,153,0,0,0,0,0,37,87,0,87,17,391,875,1,0,"
 
 [File 0009]
 Path = "/f/cvi/app/opencom/source/cvi_com_operate.h"
@@ -129,7 +129,7 @@ Disk Date = 3612778359
 In Projects = "1,"
 Window Top = 64
 Window Left = 26
-Window Z-Order = 14
+Window Z-Order = 2
 Source Window State = "1,0,0,0,0,0,0,0,0,78,0,0,0,0,0,18,50,0,117,12,391,875,1,0,"
 
 [File 0010]
@@ -139,7 +139,7 @@ Disk Date = 3649626345
 In Projects = "1,"
 Window Top = 33
 Window Left = 10
-Window Z-Order = 4
+Window Z-Order = 10
 Source Window State = "1,0,0,0,0,0,0,0,0,66,0,0,0,0,0,13,0,0,0,0,291,755,1,0,"
 
 [File 0011]
@@ -151,7 +151,7 @@ Window Top = 126
 Window Left = 58
 Window Height = 431
 Window Width = 895
-Window Z-Order = 3
+Window Z-Order = 8
 
 [File 0012]
 Path = "/f/cvi/app/config/cvi_config.h"
@@ -160,18 +160,18 @@ Disk Date = 3612336278
 In Projects = "1,"
 Window Top = 64
 Window Left = 26
-Window Z-Order = 15
-Source Window State = "1,0,0,0,0,0,0,0,0,78,0,0,0,0,0,13,12,0,0,0,291,875,1,0,"
+Window Z-Order = 6
+Source Window State = "1,22,22,22,8,31,31,0,3,78,0,0,0,0,0,13,10,0,22,8,291,875,1,0,"
 
 [File 0013]
 Path = "/f/cvi/app/opencom/source/main.c"
 File Type = "CSource"
-Disk Date = 3649624774
+Disk Date = 3650938230
 In Projects = "1,"
 Window Top = 157
 Window Left = 74
-Window Z-Order = 2
-Source Window State = "1,220,220,220,34,36,34,0,0,66,0,0,0,0,0,19,104,0,136,19,411,755,1,0,"
+Window Z-Order = 3
+Source Window State = "1,141,141,141,12,23,23,0,0,66,0,0,0,0,0,19,126,0,135,20,411,755,1,0,"
 
 [File 0014]
 Path = "/f/cvi/app/opencom/source/cvi_com2.h"
@@ -180,7 +180,7 @@ Disk Date = 3607034711
 In Projects = "1,"
 Window Top = 33
 Window Left = 10
-Window Z-Order = 13
+Window Z-Order = 16
 Source Window State = "1,0,0,0,0,0,0,0,0,79,0,0,0,0,0,18,0,0,0,0,391,885,1,0,"
 
 [File 0015]
@@ -190,7 +190,7 @@ Disk Date = 3607035742
 In Projects = "1,"
 Window Top = 188
 Window Left = 90
-Window Z-Order = 12
+Window Z-Order = 5
 Source Window State = "1,0,0,0,0,0,0,0,0,80,0,0,0,0,0,23,0,0,0,0,491,895,1,0,"
 
 [File 0016]
@@ -221,7 +221,7 @@ Disk Date = 3649200038
 In Projects = "1,"
 Window Top = 64
 Window Left = 26
-Window Z-Order = 6
+Window Z-Order = 11
 Source Window State = "1,0,0,0,0,0,0,0,0,80,0,0,0,0,0,23,0,0,0,0,491,895,1,0,"
 
 [File 0019]
@@ -231,49 +231,28 @@ Disk Date = 3649200058
 In Projects = "1,"
 Window Top = 126
 Window Left = 58
-Window Z-Order = 7
+Window Z-Order = 12
 Source Window State = "1,16,16,16,22,33,33,0,3,80,0,0,0,0,0,23,0,0,16,22,491,895,1,0,"
 
 [File 0020]
-Path = "/f/cvi/app/NC208/MonitorCom/MonitorCom.c"
-File Type = "CSource"
-Disk Date = 3650927326
-In Projects = "1,"
-Window Top = 188
-Window Left = 90
-Window Z-Order = 1
-Source Window State = "1,67,67,67,8,13,13,0,0,98,0,0,0,0,0,22,14,0,29,36,411,875,1,0,"
-
-[File 0021]
 Path = "/f/cvi/app/NC208/MonitorCom/MonitorCom.h"
 File Type = "Include"
-Disk Date = 3649280898
+Disk Date = 3651729797
 In Projects = "1,"
 Window Top = 33
 Window Left = 10
-Window Z-Order = 16
-Source Window State = "1,32,32,32,12,20,20,0,3,78,0,0,0,0,0,13,26,0,32,12,291,875,1,0,"
+Window Z-Order = 7
+Source Window State = "1,15,64,64,0,30,30,0,3,78,0,0,0,0,0,13,2,0,15,0,291,875,1,0,"
 
-[File 0022]
-Path = "/f/cvi/app/cvi_modbus/uC-MB/Source/mb.h"
+[File 0021]
+Path = "/f/cvi/app/c_comm/global.h"
 File Type = "Include"
-Disk Date = 3649126755
-In Projects = "1,"
-Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
-
-[File 0023]
-Path = "/f/cvi/app/cvi_modbus/uC-MB/Cfg/Template/mb_cfg.h"
-File Type = "Include"
-Disk Date = 3649129571
-In Projects = "1,"
-Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
-
-[File 0024]
-Path = "/f/cvi/app/cvi_modbus/uC-MB/OS/uCOS-III/NO_MB_OS.H"
-File Type = "Include"
-Disk Date = 3649191428
-In Projects = "1,"
-Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+Disk Date = 3649200014
+In Projects = ""
+Window Top = 33
+Window Left = 10
+Window Z-Order = 9
+Source Window State = "1,0,0,0,0,0,0,0,0,80,0,0,0,0,0,24,135,0,0,0,511,895,1,0,"
 
 [Tab Order]
 Tab 0001 = "/f/cvi/app/opencom/source/cvi_com_operate.c"
@@ -285,17 +264,17 @@ Tab 0006 = "/f/cvi/app/opencom/uir/com2config.h"
 Tab 0007 = "/f/cvi/app/opencom/uir/com2config.uir"
 Tab 0008 = "/f/cvi/app/opencom/uir/comconfig.uir"
 Tab 0009 = "/f/cvi/app/opencom/source/main.c"
-Tab 0010 = "/f/cvi/app/NC208/MonitorCom/MonitorCom.c"
-Tab 0011 = "/f/cvi/app/NC208/MonitorCom/MonitorCom.h"
-Tab 0012 = "/f/cvi/app/config/cvi_config.h"
-Tab 0013 = "/f/cvi/app/opencom/source/cvi_com1.c"
-Tab 0014 = "/f/cvi/app/c_comm/crccheck/CrcCheck.h"
-Tab 0015 = "/f/cvi/app/opencom/source/cvi_com2.c"
-Tab 0016 = "/f/cvi/app/opencom/source/cvi_com1.h"
-Tab 0017 = "/f/cvi/app/ansytime/cvi_ansytimer.h"
-Tab 0018 = "/f/cvi/app/ansytime/cvi_ansytimer.c"
-Tab 0019 = "/f/cvi/app/c_comm/crccheck/CrcCheck.c"
-Tab 0020 = "/f/cvi/app/NC208测试台模拟/main.h"
+Tab 0010 = "/f/cvi/app/NC208/MonitorCom/MonitorCom.h"
+Tab 0011 = "/f/cvi/app/config/cvi_config.h"
+Tab 0012 = "/f/cvi/app/opencom/source/cvi_com1.c"
+Tab 0013 = "/f/cvi/app/c_comm/crccheck/CrcCheck.h"
+Tab 0014 = "/f/cvi/app/opencom/source/cvi_com2.c"
+Tab 0015 = "/f/cvi/app/opencom/source/cvi_com1.h"
+Tab 0016 = "/f/cvi/app/ansytime/cvi_ansytimer.h"
+Tab 0017 = "/f/cvi/app/ansytime/cvi_ansytimer.c"
+Tab 0018 = "/f/cvi/app/c_comm/crccheck/CrcCheck.c"
+Tab 0019 = "/f/cvi/app/NC208测试台模拟/main.h"
+Tab 0020 = "/f/cvi/app/c_comm/global.h"
 
 [Default Build Config 0001 Debug]
 Generate Browse Info = True
